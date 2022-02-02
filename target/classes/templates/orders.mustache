@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список Заказов</title>
+</head>
+<body>
+    <p></p>
+    <div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Photo</th>
+            </tr>
+                {{#user_src}}
+                    <tr>
+                        <td>{{name}}</td>
+                        <td> <a href="{{src}}">Скачать фотографию</a></td>
+                    </tr>
+                {{/user_src}}
+
+                </td>
+        </table>
+    </div>
+</body>
+</html>

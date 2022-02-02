@@ -1,0 +1,26 @@
+
+
+<table cellspacing="10px">
+    <tr>
+        <th>FIO</th>
+        <th>Phone number</th>
+        <th>Number of post</th>
+        <th>Size of photo</th>
+        <th>Count of photo</th>
+        <th>Price</th>
+        <th>Photo</th>
+    </tr>
+    {{#usrs}}
+    <tr>
+        <td>{{fio}}</td>
+        <td>{{mobile_phone}}</td>
+        <td>{{number_of_post}}</td>
+        <td>{{size_of_photo}}</td>
+        <td>{{count_of_photo}}</td>
+        <td>{{price}}</td>
+        <td>
+            <a href="{{photo_src}}">Скачать фотографию</a>
+        </td>
+    </tr>
+    {{/usrs}}
+</table>
